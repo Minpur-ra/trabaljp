@@ -1,14 +1,40 @@
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap');
+
+
+
+
 body{
+    max-width: 1920px;
     min-height: 100vh;
    background: #BB9DEB; 
 background: linear-gradient(to bottom, #BB9DEB 0%, #463D5E 100%);
 }
+
+
+
+.rammetto-one-regular {
+  font-family: "Rammetto One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 .t1{
+    text-align: center;
+    justify-content: center;
     margin: 70px auto;
     padding: 50px;
     border-radius: 334px;
+    margin-left: 25px;
     display: inline-block;
-    width: 2774px;
+    width: 1700px;
     height: 1717px;
     min-height: 100vh;
     background:#A677D9;
@@ -28,12 +54,16 @@ background: linear-gradient(to bottom, #BB9DEB 0%, #463D5E 100%);
     gap: 15px;
 }
 .nav a{
+    padding: 8px 15px;
+    font-family: ramet;
+    font-size: 24px;
     text-decoration: none;
     color: #302452;
     font-weight: bold;
     background-color: white;
-    border-radius: 15px;
+    border-radius: 190px;
     transition: background-color 0.3s ease;
+    box-shadow: 5px 5px 15px rgba(52, 6, 70, 0.404);
 }
 nav a:hover{
     background-color: #D3B8E3;
