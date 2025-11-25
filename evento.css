@@ -27,12 +27,14 @@ background: linear-gradient(to bottom, #BB9DEB 0%, #463D5E 100%);
 
 
 .t1{
+    position: relative;
+    flex-direction: column;
     text-align: center;
     justify-content: center;
     margin: 70px auto;
     padding: 50px;
     border-radius: 334px;
-    margin-left: 25px;
+    margin-left: 45px;
     display: inline-block;
     width: 1700px;
     height: 1717px;
@@ -55,7 +57,7 @@ background: linear-gradient(to bottom, #BB9DEB 0%, #463D5E 100%);
 }
 .nav a{
     padding: 8px 15px;
-    font-family: ramet;
+    font-family: "Rammetto";
     font-size: 24px;
     text-decoration: none;
     color: #302452;
@@ -65,6 +67,24 @@ background: linear-gradient(to bottom, #BB9DEB 0%, #463D5E 100%);
     transition: background-color 0.3s ease;
     box-shadow: 5px 5px 15px rgba(52, 6, 70, 0.404);
 }
-nav a:hover{
+.nav a:hover{
     background-color: #D3B8E3;
+}
+.q1{
+    border-radius: 153px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #C99FDD;
+}
+.item img, .item2 img{
+    border-radius: 94px;
+    width: 396px;
+    height: 470px;
+    background-color: #B68EC9;
+}
+
+.item2{
+    width: 396px;
+    height: 470px;
+    background-color: #B68EC9;
 }
